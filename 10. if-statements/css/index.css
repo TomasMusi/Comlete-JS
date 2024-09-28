@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 50vh;
+    background: url(../pictures/wp3595727-431483107.jpg) no-repeat;
+}
+
+.style {
+    background: transparent;
+    padding: 40px 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    p {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 1rem;
+        font-weight: 400;
+    }
+
+    input {
+        margin-top: 2rem;
+        width: 100%;
+        padding: 5px 15px;
+        border: none;
+        background-color: #555;
+        color: white;
+        border-radius: 4px;
+    }
+
+    button {
+        margin-top: 1rem;
+        padding: 10px 40px;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        background-color: #555;
+    }
+
+    button:hover {
+        background-color: #4820fc;
+        transition: all 0.35s ease-in-out;
+    }
+
+    button:active {
+        transition: all 0.35s ease-in-out;
+        transform: translateY(4px);
+    }
+}
